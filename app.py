@@ -40,9 +40,35 @@ alliance_constituencies = {
 # Master list of all 234 TN Constituencies. 
 # (Add any remaining constituency names here to have them automatically assigned to ADMK)
 all_tn_constituencies = [
+    # Neenga kodutha thoguthigal
     'Edappadi', 'Bodinayakanur', 'Royapuram', 'Thondamuthur', 'Gobichettipalayam',
-    'Viralimalai', 'Kinathukadavu', 'Thirumangalam', 'Sivakasi', 'Karur'
-] 
+    'Viralimalai', 'Kinathukadavu', 'Thirumangalam', 'Sivakasi', 'Karur',
+    
+    # Chennai matrum sutrupurangal
+    'Dr. Radhakrishnan Nagar', 'Perambur', 'Kolathur', 'Villivakkam', 'Thiru-Vi-Ka-Nagar', 
+    'Egmore', 'Harbour', 'Chepauk-Thiruvallikeni', 'Thousand Lights', 
+    'Anna Nagar', 'Virugampakkam', 'Saidapet', 'Thiyagarayanagar', 'Mylapore', 'Velachery',
+    'Gummidipoondi', 'Ponneri', 'Tiruttani', 'Thiruvallur', 'Poonamallee', 'Avadi', 
+    'Maduravoyal', 'Ambattur', 'Madavaram', 'Thiruvottiyur', 'Tambaram', 'Pallavaram',
+    'Sholinganallur', 'Alandur', 'Chengalpattu', 'Kancheepuram', 'Sriperumbudur',
+
+    # Matra mukkiyamana thoguthigal
+    'Coimbatore North', 'Coimbatore South', 'Singanallur', 'Pollachi', 'Mettupalayam',
+    'Erode East', 'Erode West', 'Bhavani', 'Salem North', 'Salem South', 'Salem West',
+    'Madurai Central', 'Madurai West', 'Madurai East', 'Madurai South', 'Madurai North',
+    'Trichy East', 'Trichy West', 'Srirangam', 'Tirunelveli', 'Palayamkottai',
+    'Thoothukudi', 'Kovilpatti', 'Kanyakumari', 'Nagercoil', 'Colachel',
+    'Udhagamandalam (Ooty)', 'Coonoor', 'Gudalur', 'Thanjavur', 'Kumbakonam', 
+    'Nagapattinam', 'Mayiladuthurai', 'Vellore', 'Katpadi', 'Ranipet', 'Arakkonam',
+    'Tiruvannamalai', 'Cheyyar', 'Arani', 'Cuddalore', 'Chidambaram', 'Neyveli',
+    'Villupuram', 'Tindivanam', 'Kallakurichi', 'Dharmapuri', 'Pennagaram',
+    'Krishnagiri', 'Hosur', 'Bargur', 'Dindigul', 'Palani', 'Oddanchatram', 
+    'Theni', 'Periyakulam', 'Aruppukottai', 'Rajapalayam', 'Ramanathapuram', 
+    'Paramakudi', 'Sivaganga', 'Karaikudi', 'Pudukkottai', 'Aranthangi', 
+    'Ariyalur', 'Jayankondam', 'Perambalur', 'Namakkal', 'Tiruchengode', 'Rasipuram'
+    
+    # Kurippu: Motham 234 thoguthigal ullana. Idhu oru partial list aagum.
+]
 # Add the alliance ones to the master list so the math works
 for seats in alliance_constituencies.values():
     all_tn_constituencies.extend(seats)
